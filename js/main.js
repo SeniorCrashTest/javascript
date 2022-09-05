@@ -51,14 +51,10 @@ console.log("myRandom", myRandom);
 var myPow = Math.pow(3, 5);
 console.log("myPow", myPow);
 
-//------------------
-
 var strObj = { str: "Мама мыла раму, рама мыла маму" };
 
 strObj.length = strObj.str.length;
 console.log("strObj = ", strObj);
-
-//---------------------
 
 var isRamaPos = strObj.str.indexOf("рама");
 console.log("isRamaPos", isRamaPos);
